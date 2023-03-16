@@ -22,3 +22,21 @@ button {
   border-radius: 5px;
   border-width: 1px;
 }
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.value {
+  font-size: 27px;
+  font-weight: 500;
+}
