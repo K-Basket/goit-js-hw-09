@@ -37,7 +37,8 @@ function onStart() {
   activateBtn(true);
 
   timerId = setInterval(() => {
-    msDiff = msSelected - Date.now();
+    const msDiff = msSelected - Date.now();
+
     addTextConntent(msDiff);
 
     if (msDiff < 1000) {
