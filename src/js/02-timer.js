@@ -10,6 +10,7 @@ const btnStartEl = document.querySelector('[data-start');
 
 btnStartEl.addEventListener('click', onStart);
 
+let msSelected = null;
 let timerId = null;
 
 activateBtn(true);
